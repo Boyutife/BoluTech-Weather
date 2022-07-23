@@ -30,11 +30,11 @@ const getCity = async (city) => {
 
 } ;
 
-getCity('lagos').then(data =>{
-  return getWeather(data.Key);})
-  .then(data => {
-    console.log(data);
-  })
-  .catch( err => {
-    console.log(err);
-  });
+// getCity('lagos').then(data =>{
+//   return getWeather(data.Key);})
+//   .then(data => {
+//     console.log(data);
+//   })
+//   .catch( err => {
+//     console.log(err);
+//   });
