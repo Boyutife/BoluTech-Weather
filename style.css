@@ -7,3 +7,15 @@ body {
 .container{
   max-width: 400px;
 }
+
+.icon {
+  display: grid;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+ .icon img {
+  place-self: center;
+  max-width: 50px;
+} 
